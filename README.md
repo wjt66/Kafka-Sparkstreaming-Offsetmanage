@@ -1,1 +1,2 @@
 # Kafka-Sparkstreaming-Offsetmanage
+这是SparkStreaming010使用Direct方式读取kafka数据源， 并且手动管理偏移量的3种保存方法，可以保存在redis、 zookeeper、mysql,自己手动提交偏移量可以使得Topic Partition和RDD Partition一一对应、数据零丢失、数据 只会被消费一次等等
